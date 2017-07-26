@@ -3,7 +3,7 @@
 /**
  * Implements template_preprocess_html().
  */
-function nyaarter_preprocess_html(&$variables) {
+function bioblitz_preprocess_html(&$variables) {
 }
 
 
@@ -11,7 +11,7 @@ function nyaarter_preprocess_html(&$variables) {
 /**
  * Implements template_preprocess_node.
  */
-function nyaarter_preprocess_node(&$variables) {
+function bioblitz_preprocess_node(&$variables) {
 }
 //function helper_form_alter(&$form, $form_state, $form_id) {
 //    switch ($form_id) {
@@ -23,7 +23,7 @@ function nyaarter_preprocess_node(&$variables) {
 //}
 
 
-function nyaarter_preprocess_page(&$variables) {
+function bioblitz_preprocess_page(&$variables) {
     
     $variables['linked_logo'] = '';
     if (!empty($variables['logo_img'])) {

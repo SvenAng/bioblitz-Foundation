@@ -1,6 +1,6 @@
 @import "../functions";
-
-
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);
 //button, .button {
 //    padding:  0.5rem 1rem;
 //}
@@ -188,7 +188,7 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
 }
 .navigation-top-bar{
 //	background: $navigation-top-color;
-    background: url(../images/smal-bakgrund-1.jpg) center top;
+    background: url(../images/smal-bakgrund-green.jpg) center top;
 	width: 100%;
 	height: 50px;
     padding: 3px;
@@ -296,4 +296,32 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
 .l-footer-columns ul.menu li a{
 	color: $nyaarter-light-gray;
 	font-size: 0.9rem;
+}
+
+// ======== Specialgrejer för formulären ======= //
+.field-name-field-art{ 
+  .form-type-managed-file{
+    margin-bottom: 0;
+    .description{
+      display: none;
+    }
+    .form-submit{
+      border-radius: 3px;
+      background-color: #fff;
+      border: 1px solid #000;
+      color: #000;
+    }
+  }
+  .field-type-image{
+//    border-bottom: 1px $black dotted;
+//    border-top: 1px $black dotted;
+//    padding-left: 1rem;
+  }
+  .form-submit{
+    border-radius: 3px;
+    background-color: $nyaarter-orange;
+  }
+  .image-widget .form-file{
+    padding-bottom: 1rem !important;
+  }
 }

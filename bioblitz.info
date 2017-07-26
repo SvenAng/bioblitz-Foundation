@@ -1,4 +1,4 @@
-name = Nyaarter v1 2017
+name = Bioblitz v1, 2017
 description = Custom sub-theme based on the the Zurb Foundation base theme.
 screenshot = images/screenshot.png
 
@@ -27,7 +27,7 @@ base theme = zurb_foundation
 ; CSS3 media queries: http://www.w3.org/TR/css3-mediaqueries/
 
 ; For CSS users, load the STARTER.css file:
-stylesheets[all][] = css/nyaarter.css
+stylesheets[all][] = css/bioblitz.css
 stylesheets[all][] = fonts/foundation-icons/foundation-icons.css
 
 ; Block loading of foundation.min.css from the base theme. This file should either
@@ -38,7 +38,7 @@ stylesheets[all][] = css/foundation.min.css
 ; Foundation JavaScript.
 
 ; External libraries used by Foundation (minified). Add more via Gruntfile.js.
-scripts[] = js/nyaarter.js
+scripts[] = js/bioblitz.js
 scripts[] = js/vendor/modernizr.js
 
 ; Foundation framework scripts (minified).

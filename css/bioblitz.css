@@ -10202,29 +10202,94 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
   font-size: 0.9rem;
 }
 
-/* line 303, ../scss/base/_init.scss */
+/* line 304, ../scss/base/_init.scss */
 .field-name-field-art .form-type-managed-file {
   margin-bottom: 0;
 }
-/* line 305, ../scss/base/_init.scss */
+/* line 306, ../scss/base/_init.scss */
 .field-name-field-art .form-type-managed-file .description {
   display: none;
 }
-/* line 308, ../scss/base/_init.scss */
+/* line 309, ../scss/base/_init.scss */
 .field-name-field-art .form-type-managed-file .form-submit {
   border-radius: 3px;
   background-color: #fff;
   border: 1px solid #000;
   color: #000;
 }
-/* line 320, ../scss/base/_init.scss */
+/* line 321, ../scss/base/_init.scss */
 .field-name-field-art .form-submit {
   border-radius: 3px;
   background-color: #d03351;
 }
-/* line 324, ../scss/base/_init.scss */
+/* line 325, ../scss/base/_init.scss */
 .field-name-field-art .image-widget .form-file {
   padding-bottom: 1rem !important;
+}
+
+/* line 332, ../scss/base/_init.scss */
+.field-name-field-bild-art .form-type-managed-file {
+  margin-bottom: 0;
+}
+/* line 334, ../scss/base/_init.scss */
+.field-name-field-bild-art .form-type-managed-file .description {
+  display: none;
+}
+/* line 337, ../scss/base/_init.scss */
+.field-name-field-bild-art .form-type-managed-file .form-submit {
+  border-radius: 3px;
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
+}
+/* line 349, ../scss/base/_init.scss */
+.field-name-field-bild-art .form-submit {
+  border-radius: 3px;
+  background-color: #d03351;
+}
+/* line 353, ../scss/base/_init.scss */
+.field-name-field-bild-art .image-widget .form-file {
+  padding-bottom: 1rem !important;
+}
+
+/* line 359, ../scss/base/_init.scss */
+#arter-node-form .form-wrapper {
+  margin-bottom: 1rem;
+}
+/* line 362, ../scss/base/_init.scss */
+#arter-node-form #edit-field-antal-und-0-value {
+  width: 3rem;
+}
+
+@media only screen and (min-width: 20.063em) and (max-width: 64em) {
+  /* line 368, ../scss/base/_init.scss */
+  #arter-node-form {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 374, ../scss/base/_init.scss */
+  #arter-node-form {
+    width: 400px;
+  }
+}
+/* line 380, ../scss/base/_init.scss */
+.node-arter .getlocations_fields_lat_wrapper_themed {
+  float: none;
+}
+/* line 383, ../scss/base/_init.scss */
+.node-arter .getlocations_fields_lon_wrapper_themed {
+  float: none;
+}
+/* line 386, ../scss/base/_init.scss */
+.node-arter .vcard {
+  border: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+/* line 392, ../scss/base/_init.scss */
+.node-arter br {
+  display: none;
 }
 
 /* line 4, ../scss/base/_drupal.scss */

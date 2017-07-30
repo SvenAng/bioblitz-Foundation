@@ -299,6 +299,7 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
 }
 
 // ======== Specialgrejer för formulären ======= //
+// Fynd
 .field-name-field-art{ 
   .form-type-managed-file{
     margin-bottom: 0;
@@ -323,5 +324,72 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
   }
   .image-widget .form-file{
     padding-bottom: 1rem !important;
+  }
+}
+
+// Arter
+.field-name-field-bild-art{ 
+  .form-type-managed-file{
+    margin-bottom: 0;
+    .description{
+      display: none;
+    }
+    .form-submit{
+      border-radius: 3px;
+      background-color: #fff;
+      border: 1px solid #000;
+      color: #000;
+    }
+  }
+  .field-type-image{
+    //    border-bottom: 1px $black dotted;
+    //    border-top: 1px $black dotted;
+    //    padding-left: 1rem;
+  }
+  .form-submit{
+    border-radius: 3px;
+    background-color: $nyaarter-orange;
+  }
+  .image-widget .form-file{
+    padding-bottom: 1rem !important;
+  }
+  
+}
+#arter-node-form{
+  .form-wrapper{
+    margin-bottom: 1rem;
+  }
+  #edit-field-antal-und-0-value{
+    width: 3rem; 
+  }
+  
+}
+@media only screen and (min-width: 20.063em) and (max-width: 64em) { 
+  #arter-node-form{
+    width: 100%;
+  }
+} 
+
+@media only screen and (min-width: 64.063em) { 
+  #arter-node-form{
+    width: 400px;
+  }
+} 
+
+.node-arter{
+  .getlocations_fields_lat_wrapper_themed{
+    float: none;
+  }
+  .getlocations_fields_lon_wrapper_themed{
+    float: none;
+  }
+  .vcard{
+    border: none;
+    padding: 0;
+    margin-bottom: 0;
+    
+  }
+  br{
+    display: none;
   }
 }

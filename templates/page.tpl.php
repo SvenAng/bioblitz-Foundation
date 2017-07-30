@@ -14,11 +14,8 @@
       </div>
     </nav>
 
-
     <!-- main content goes here -->
     
-
-
 
 <!--.page -->
 <div role="document" class="page">

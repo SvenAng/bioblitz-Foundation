@@ -1,10 +1,14 @@
 jQuery(document).ready(function () {
     
-    jQuery(".c-hamburger").click(function(){
-        jQuery('#main-navigation').toggleClass('open');
-        jQuery('.c-hamburger').toggleClass('is-active');
-    });
-
+  jQuery(".c-hamburger").click(function(){
+      jQuery('#main-navigation').toggleClass('open');
+      jQuery('.c-hamburger').toggleClass('is-active');
+  });
+  jQuery('#main-navigation > ul').click(function(){
+    jQuery('#main-navigation').toggleClass('open');
+    jQuery('.c-hamburger').toggleClass('is-active');
+    console.log("main");
+  });
     jQuery(".scroll-top").click(function() {
         jQuery("html, body").animate({scrollTop: 0 }, "slow");
         return false;

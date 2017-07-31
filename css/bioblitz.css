@@ -10292,6 +10292,23 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
   display: none;
 }
 
+/* line 396, ../scss/base/_init.scss */
+table a {
+  color: #f08a24;
+}
+
+/* line 399, ../scss/base/_init.scss */
+table a:hover {
+  text-decoration: underline;
+  color: #f08a24;
+}
+
+/* line 404, ../scss/base/_init.scss */
+.node-arter img {
+  padding-bottom: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 /* line 4, ../scss/base/_drupal.scss */
 .admin-menu .fixed {
   top: 1.8125rem;

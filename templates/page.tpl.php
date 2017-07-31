@@ -95,11 +95,17 @@
       <?php //if ($breadcrumb): print $breadcrumb; endif; ?>
 
       <?php if ($title): ?>
-        <?php print render($title_prefix); ?>
-        <h1 id="page-title" class="title"><?php print $title; ?></h1>
-        <?php print render($title_suffix); ?>
+        <?php if ($title =="Skapa Arter"): ?>
+          <?php print render($title_prefix); ?>
+            <h1 id="page-title" class="title"><?php print "Rapportera Arter"; ?></h1>
+          <?php print render($title_suffix); ?>
+        <?php else: ?>
+          <?php print render($title_prefix); ?>
+            <h1 id="page-title" class="title"><?php print $title; ?></h1>
+          <?php print render($title_suffix); ?>
+        <?php endif; ?>
       <?php endif; ?>
-
+      
       <?php if (!empty($tabs)): ?>
         <?php print render($tabs); ?>
         <?php if (!empty($tabs2)): print render($tabs2); endif; ?>
@@ -109,6 +115,7 @@
         <ul class="action-links">
           <?php print render($action_links); ?>
         </ul>
+      
       <?php endif; ?>
 
       <?php print render($page['content']); ?>

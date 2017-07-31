@@ -393,3 +393,15 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
     display: none;
   }
 }
+table a{
+  color: $warning-color;
+}
+table a:hover{
+//  color: #000;
+  text-decoration: underline;
+  color: $warning-color;
+}
+.node-arter img{
+  padding-bottom: 0.5rem;
+  padding-right: 0.5rem;
+}

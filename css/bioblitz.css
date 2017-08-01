@@ -10309,6 +10309,30 @@ table a:hover {
   padding-right: 0.5rem;
 }
 
+/* line 410, ../scss/base/_init.scss */
+.mob-list-wrapper {
+  font-size: 0.8rem;
+  padding-bottom: 1.5rem;
+}
+/* line 413, ../scss/base/_init.scss */
+.mob-list-wrapper h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+/* line 417, ../scss/base/_init.scss */
+.mob-list-wrapper h3 a {
+  color: #f08a24;
+}
+/* line 420, ../scss/base/_init.scss */
+.mob-list-wrapper img {
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+}
+/* line 424, ../scss/base/_init.scss */
+.mob-list-wrapper i {
+  color: #000;
+}
+
 /* line 4, ../scss/base/_drupal.scss */
 .admin-menu .fixed {
   top: 1.8125rem;

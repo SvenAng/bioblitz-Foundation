@@ -405,3 +405,23 @@ table a:hover{
   padding-bottom: 0.5rem;
   padding-right: 0.5rem;
 }
+
+//Fyndlistan för mobilen
+.mob-list-wrapper{
+  font-size: 0.8rem;
+  padding-bottom: 1.5rem;
+  h3{
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+  h3 a{
+    color: $warning-color;
+  }
+  img{
+    padding-top: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  i{
+    color: #000;
+  }
+}

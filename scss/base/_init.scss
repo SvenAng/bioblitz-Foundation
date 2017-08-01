@@ -393,6 +393,31 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
     display: none;
   }
 }
+.node-undersokningsplats{
+  .getlocations_fields_lat_wrapper_themed{
+    float: none;
+  }
+  .getlocations_fields_lon_wrapper_themed{
+    float: none;
+  }
+  .getlocations_fields_latlon_wrapper_themed {
+    padding-top: 0;
+  }
+  .vcard{
+    border: none;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  h4{
+    margin-bottom: 0;
+    margin-top: 0.4rem;
+    border-top: 1px dotted #000;
+  }
+  br{
+    display: none; 
+  }
+}
 table a{
   color: $warning-color;
 }

@@ -83,7 +83,20 @@
   <!--.l-main -->
   <main role="main" class="row l-main">
     <!-- .l-main region -->
-    <div class="<?php print $main_grid; ?> main columns">
+    <?php 
+      $bredd = "small-12";
+      if ( !empty($node)) {
+        
+        if($node->type == "page"){
+          $bredd = "large-8 medium-12 small-12";  
+        }
+        
+      } elseif($is_front == 1){
+        $bredd = "large-8 medium-12 small-12";
+      }
+
+    ?>
+    <div class="<?php print $main_grid; ?> main columns <?php print $bredd; ?>">
       <?php if (!empty($page['highlighted'])): ?>
         <div class="highlight panel callout">
           <?php print render($page['highlighted']); ?>

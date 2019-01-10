@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);
 
+
 //scroll
 .scroll-top {
     background-color: $primary-color;
@@ -73,7 +74,6 @@ label[for=edit-field-tid-i-vattnet-und-0-value]{
 #edit-field-tid-i-vattnet-und-0-value{
 	display: inline-block;
 	width: 70px;
-	/*text-align: right;*/
 }
 
 .node-form #edit-submit{

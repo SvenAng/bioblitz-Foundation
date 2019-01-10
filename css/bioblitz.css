@@ -9834,7 +9834,7 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 6, ../scss/base/_init.scss */
+/* line 7, ../scss/base/_init.scss */
 .scroll-top {
   background-color: gray;
   border-radius: 4px;
@@ -9847,60 +9847,60 @@ th.hide-for-touch {
   width: 40px;
 }
 
-/* line 18, ../scss/base/_init.scss */
+/* line 19, ../scss/base/_init.scss */
 .fi-arrow-up::before {
   content: "";
 }
 
-/* line 21, ../scss/base/_init.scss */
+/* line 22, ../scss/base/_init.scss */
 .scroll-top i {
   color: #ffffff;
   font-size: 1.7rem;
   padding: 0;
 }
 
-/* line 29, ../scss/base/_init.scss */
+/* line 30, ../scss/base/_init.scss */
 .view-footer {
   margin-top: 1rem;
   text-align: center;
 }
 
-/* line 36, ../scss/base/_init.scss */
+/* line 37, ../scss/base/_init.scss */
 #edit-field-art-und-form-field-antal-und-0-value,
 #edit-field-art-und-entities-0-form-field-antal-und-0-value {
   width: 50px;
 }
 
-/* line 40, ../scss/base/_init.scss */
+/* line 41, ../scss/base/_init.scss */
 .form-item-field-art-und-entities-0-form-field-metod-und,
 #edit-field-art-und-form-field-metod {
   margin-bottom: 1rem;
 }
 
-/* line 44, ../scss/base/_init.scss */
+/* line 45, ../scss/base/_init.scss */
 #fynden-node-form legend,
 #fynden-node-form label {
   font-weight: 600;
   color: #d03351;
 }
 
-/* line 49, ../scss/base/_init.scss */
+/* line 50, ../scss/base/_init.scss */
 #fynden-node-form .form-radios label {
   color: #222222;
 }
 
-/* line 52, ../scss/base/_init.scss */
+/* line 53, ../scss/base/_init.scss */
 #edit-field-art-und-form .fieldset-wrapper div {
   margin-bottom: 1rem;
 }
 
 /*OVERRIDES*/
-/* line 57, ../scss/base/_init.scss */
+/* line 58, ../scss/base/_init.scss */
 .fieldset-wrapper .has-tip {
   display: none;
 }
 
-/* line 61, ../scss/base/_init.scss */
+/* line 62, ../scss/base/_init.scss */
 label[for=edit-field-strandkrabba-hona-und-0-value],
 label[for=edit-field-strandkrabba-hane-und-0-value],
 label[for=edit-field-bl-krabbor-und-0-value],
@@ -9910,7 +9910,7 @@ label[for=edit-field-tid-i-vattnet-und-0-value] {
   width: 210px;
 }
 
-/* line 69, ../scss/base/_init.scss */
+/* line 70, ../scss/base/_init.scss */
 #edit-field-strandkrabba-hona-und-0-value,
 #edit-field-strandkrabba-hane-und-0-value,
 #edit-field-bl-krabbor-und-0-value,
@@ -9918,7 +9918,6 @@ label[for=edit-field-tid-i-vattnet-und-0-value] {
 #edit-field-tid-i-vattnet-und-0-value {
   display: inline-block;
   width: 70px;
-  /*text-align: right;*/
 }
 
 /* line 79, ../scss/base/_init.scss */
